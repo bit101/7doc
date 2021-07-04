@@ -146,7 +146,6 @@ function drawDial(x, y, w, h) {
 }
 
 function drawDial2(x, y, w, h) {
-  console.log("dial 2");
   context.save();
   context.strokeStyle = "#666";
   context.fillStyle = "#fff";
@@ -627,7 +626,6 @@ function drawRoundLights(x, y, w, h) {
   for (let i = 0; i < numx; i++) {
     for (let j = 0; j < numy; j++) {
       context.fillStyle = Color.gray(Random.int(255, 200));
-      console.log(i, j);
       context.fillCircle(x + (i + 0.5) / numx * w, y + (j + 0.5) / numy * h, 5);
     }
   }

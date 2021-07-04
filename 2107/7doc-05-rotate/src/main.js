@@ -28,7 +28,7 @@ new HSlider(panel, 20, 60, "Speed", model.speed, -0.1, 0.1)
   .setDecimals(2)
   .setWidth(120)
   .bind(model, "speed");
-new HSlider(panel, 20, 100, "Perspective", model.fl, 200, 1000)
+new HSlider(panel, 20, 100, "Perspective", model.fl, 50, 1000)
   .setWidth(120)
   .bind(model, "fl");
 new HSlider(panel, 20, 140, "Z", model.z, 00, 1000)
